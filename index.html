@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>TADS em 3 minutos · Conheça a FT/Unicamp</title>
+    <meta
+      name="description"
+      content="Conheça o curso de Tecnologia em Análise e Desenvolvimento de Sistemas da FT/Unicamp: formação, projetos, carreira e vida em Limeira. Uma experiência interativa e sem cadastro."
+    />
+    <meta name="theme-color" content="#025b8e" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23025b8e'/%3E%3Cpath d='m15 12-8 8 8 8m10-16 8 8-8 8' fill='none' stroke='%234bb270' stroke-width='3'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Pular para o conteúdo</a>
+    <div class="shell">
+      <aside class="sidebar" aria-label="Navegação da experiência">
+        <div class="brand">
+          <img
+            class="ft-logo"
+            src="assets/img/ft-logo.png"
+            width="1000"
+            height="1095"
+            alt="Faculdade de Tecnologia — Unicamp"
+          />
+          <div class="brandtitle">
+            <b>TADS<span>.</span></b
+            ><small>EM 3 MINUTOS</small>
+          </div>
+        </div>
+        <p class="navlabel">SEU PERCURSO</p>
+        <nav class="nav" id="navigation" aria-label="Módulos do curso"></nav>
+        <div class="sidebottom">
+          <div class="sidechallenge">
+            <span class="eyebrow">30 segundos de lógica</span>
+            <p>Que tal pensar como quem desenvolve um sistema?</p>
+            <button data-go="challenge">Experimentar o desafio &nbsp; ↗</button>
+          </div>
+          <p class="sidefoot">FT · UNICAMP<br />Uma descoberta de cada vez.</p>
+        </div>
+      </aside>
+      <div class="main">
+        <header class="topbar">
+          <div class="toplabel">
+            <b>FT / Unicamp</b> &nbsp;·&nbsp; Portas abertas
+          </div>
+          <div class="topactions">
+            <div class="progressbox">
+              <div class="progresstext">
+                <span>Seu percurso</span><span id="progressText">1 de 5</span>
+              </div>
+              <progress
+                id="progress"
+                max="5"
+                value="1"
+                aria-label="Módulos visitados"
+              ></progress>
+            </div>
+            <button class="summarybtn" data-go="summary">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6 3h12v18l-6-4-6 4z" /></svg
+              >Meu resumo
+              <span id="savedCount" aria-label="interesses salvos"></span>
+            </button>
+          </div>
+        </header>
+        <main id="main" class="content" tabindex="-1"></main>
+      </div>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <noscript
+      ><p style="padding: 24px">
+        Ative o JavaScript para explorar os módulos e o desafio. TADS é uma
+        graduação da FT/Unicamp em Limeira, com seis semestres e período
+        noturno.
+        <a href="https://www3.ft.unicamp.br/pt-br/graduacao/cursos/tads"
+          >Conheça o curso na página oficial.</a
+        >
+      </p></noscript
+    >
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
