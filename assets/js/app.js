@@ -326,7 +326,6 @@
     }
   });
   render();
-  // Integração opcional já presente no original; só é ativada em ambientes compatíveis.
   if (document.modelContext?.registerTool) {
     const lifecycle = new AbortController();
     const tools = [
